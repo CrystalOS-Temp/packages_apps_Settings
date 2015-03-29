@@ -168,4 +168,7 @@
     <string name="wifi_timeout_summary_4hours">4 óra</string>
     <string name="wifi_timeout_summary_8hours">8 óra</string>
 
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Képernyőkép hangja</string>
+
 </resources>
