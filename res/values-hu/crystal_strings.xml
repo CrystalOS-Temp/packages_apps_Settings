@@ -144,4 +144,8 @@
     <string name="auto_brightness_one_shot_title">Egyszeri automatikus fényerő</string>
     <string name="auto_brightness_one_shot_summary">Csak az eszköz felkeltésekor ellenőrizze a környezeti fényt az automatikus fényerő beállításához</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statisztika nullázása</string>
+    <string name="battery_stats_message">Az akkumulátor használati statisztika nullázva lesz</string>
+
 </resources>
