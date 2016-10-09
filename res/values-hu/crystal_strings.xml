@@ -193,4 +193,8 @@
     <string name="display_cutout_force_fullscreen_no_apps">Nincsenek appok</string>
     <string name="display_cutout_force_fullscreen_restart_app">Indítsa újra az alkalmazást a változások alkalmazásához.</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
+    <string name="unlock_quick_unlock_control_summary">Helyes jelszó vagy PIN beírásakor automatikusan oldjon fel az eszköz</string>
+
 </resources>
