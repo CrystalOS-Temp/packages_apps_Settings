@@ -46,4 +46,8 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Összes memória</string>
 
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Lejátszás vezérlés</string>
+    <string name="volume_button_music_control_summary">A hangerő gomb hosszú nyomása kikapcsolt képernyőnél vált a zenék között</string>
+
 </resources>
