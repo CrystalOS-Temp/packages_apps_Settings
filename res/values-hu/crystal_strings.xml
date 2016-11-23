@@ -68,4 +68,8 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg az ujjlenyomat olvasót az eszköz oldalán!</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg az ujjlenyomat olvasót a telefon oldalán!</string>
 
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Lejátszás vezérlés</string>
+    <string name="volume_button_music_control_summary">A hangerő gomb hosszú nyomása kikapcsolt képernyőnél vált a zenék között</string>
+
 </resources>
