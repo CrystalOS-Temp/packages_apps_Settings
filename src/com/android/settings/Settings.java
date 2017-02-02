@@ -444,4 +444,9 @@ public class Settings extends SettingsActivity {
      * Activity for Crystal Mine
      **/
     public static class CrystalHomepageActivity extends SettingsActivity {/* empty */}
+
+    /**
+     * Activity for Running Services icon on the QS panel
+     **/
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }

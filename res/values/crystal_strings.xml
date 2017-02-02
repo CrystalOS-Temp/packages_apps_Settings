@@ -154,4 +154,6 @@
     <string name="app_volume_title">Per-app volume control</string>
     <string name="app_volume_summary">Allow to set different volume levels for each app</string>
 
+    <string name="background_processes_settings_title">Background processes</string>
+
 </resources>
