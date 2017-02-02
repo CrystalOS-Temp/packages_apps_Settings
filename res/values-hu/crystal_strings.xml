@@ -131,4 +131,6 @@
     <string name="app_volume_title">Alkalmazásonkénti hangerőszabályzás</string>
     <string name="app_volume_summary">Lehetővé teszi hogy minden alkalmazásnak egyéni hangerő szintet állítson be</string>
 
+    <string name="background_processes_settings_title">Háttérben futó folyamatok</string>
+
 </resources>
