@@ -114,4 +114,7 @@
     <string name="toast_insult_19">Get some friends instead!</string>
     <string name="toast_insult_20">This is not a doorbell, stop pushing it!</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Charging vibration</string>
+
 </resources>
