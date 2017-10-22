@@ -135,4 +135,7 @@
     <string name="toast_insult_19">Inkább szerezz magadnak barátokat!</string>
     <string name="toast_insult_20">Ez nem csengő, ne nyomkodd!</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Töltő rezgés</string>
+
 </resources>
