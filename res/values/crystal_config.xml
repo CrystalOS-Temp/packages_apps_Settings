@@ -13,6 +13,7 @@
 
 <resources>
 
-     <color name="color_crystal_dashboard_icon">#D6B895</color>
+     <!-- Device specific doze package -->
+     <string name="config_customDozePackage" translatable="false"></string>
 
 </resources>
