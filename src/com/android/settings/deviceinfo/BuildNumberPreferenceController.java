@@ -23,12 +23,14 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ResolveInfo;
+import android.content.res.Resources;
 import android.os.Build;
 import android.os.UserHandle;
 import android.os.UserManager;
 import android.text.BidiFormatter;
 import android.text.TextUtils;
 import android.widget.Toast;
+import android.view.View;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
@@ -48,6 +50,8 @@ import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
+
+import java.util.Random;
 
 public class BuildNumberPreferenceController extends BasePreferenceController implements
         LifecycleObserver, OnStart {
@@ -198,7 +202,10 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
             if (mDevHitToast != null) {
                 mDevHitToast.cancel();
             }
-            mDevHitToast = Toast.makeText(mContext, R.string.show_dev_already,
+            String[] insults = mContext.getResources().getStringArray(R.array.toast_insults);
+            Random randomInsult = new Random();
+            final int toasts = randomInsult.nextInt(insults.length);
+            mDevHitToast = Toast.makeText(mContext, insults[toasts],
                     Toast.LENGTH_LONG);
             mDevHitToast.show();
             mMetricsFeatureProvider.action(
