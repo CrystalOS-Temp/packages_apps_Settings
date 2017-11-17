@@ -114,4 +114,26 @@
     <string name="doze_double_tap_title">Double tap to check phone</string>
     <string name="doze_double_tap_summary">Pulse notifications by a double tap</string>
 
+    <!-- Toast Insulter -->
+    <string name="toast_insult_1">Stop it, it hurts!</string>
+    <string name="toast_insult_2">What are you doing??</string>
+    <string name="toast_insult_3">Just don\'t!</string>
+    <string name="toast_insult_4">Maybe you should use iOS instead...</string>
+    <string name="toast_insult_5">This is not Windows.</string>
+    <string name="toast_insult_6">Pushing it won\'t make you any smarter</string>
+    <string name="toast_insult_7">error code: 1D10T</string>
+    <string name="toast_insult_8">404: Brain not found!</string>
+    <string name="toast_insult_9">Sometimes you honestly disappoint me.</string>
+    <string name="toast_insult_10">Pro tip: Stop doing this!</string>
+    <string name="toast_insult_11">If you\'d be any dumber, you\'d need to get watered every now and then.</string>
+    <string name="toast_insult_12">Why are you so stupid?!</string>
+    <string name="toast_insult_13">git commit -m \'Suicide\'</string>
+    <string name="toast_insult_14">Don\'t you have anything better to do?!</string>
+    <string name="toast_insult_15">You should be ashamed of yourself!</string>
+    <string name="toast_insult_16">Looks like you\'re evolving... Just backwards</string>
+    <string name="toast_insult_17">Looks like Nokia is your thing!</string>
+    <string name="toast_insult_18">You look like a person who calls MIUI a Gaming ROM</string>
+    <string name="toast_insult_19">Get some friends instead!</string>
+    <string name="toast_insult_20">This is not a doorbell, stop pushing it!</string>
+
 </resources>

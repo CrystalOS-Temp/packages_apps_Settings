@@ -113,4 +113,26 @@
     <string name="doze_double_tap_title">Dupla koppintásra értesítés</string>
     <string name="doze_double_tap_summary">Villantsa fel az értesítéseket dupla koppintásra</string>
 
+    <!-- Toast Insulter -->
+    <string name="toast_insult_1">Hagyd abba, ez fáj!</string>
+    <string name="toast_insult_2">Te mit csinálsz???</string>
+    <string name="toast_insult_3">Csak, ne!</string>
+    <string name="toast_insult_4">Lehet inkább iOS-t kéne használnod...</string>
+    <string name="toast_insult_5">Ez nem Windows.</string>
+    <string name="toast_insult_6">Attól nem leszel okosabb, hogy nyomkodod!</string>
+    <string name="toast_insult_7">hiba kód: 1D10T4</string>
+    <string name="toast_insult_8">404: Agy nem található!</string>
+    <string name="toast_insult_9">Néha őszintén csalódást okozol.</string>
+    <string name="toast_insult_10">Pro tip: Ezt hagyd abba!</string>
+    <string name="toast_insult_11">Ha ennél hülyébb lennél, néha meg kéne téged locsolni.</string>
+    <string name="toast_insult_12">Miért vagy ilyen hülye?!</string>
+    <string name="toast_insult_13">git commit -m \'Szuicid\'</string>
+    <string name="toast_insult_14">Nincs semmi jobb dolgod?!</string>
+    <string name="toast_insult_15">Szégyelned kéne magad!</string>
+    <string name="toast_insult_16">Orvos látott már téged?</string>
+    <string name="toast_insult_17">Úgy tűnik neked a Nokia való!</string>
+    <string name="toast_insult_18">Úgy nézel ki mint valaki aki a MIUI-t Gaming ROM-nak hívja.</string>
+    <string name="toast_insult_19">Inkább szerezz magadnak barátokat!</string>
+    <string name="toast_insult_20">Ez nem csengő, ne nyomkodd!</string>
+
 </resources>
