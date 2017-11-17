@@ -48,6 +48,8 @@ import com.android.settingslib.development.DevelopmentSettingsEnabler;
 
 import com.google.android.setupcompat.util.WizardManagerHelper;
 
+import java.util.Random;
+
 public class BuildNumberPreferenceController extends BasePreferenceController implements
         LifecycleObserver, OnStart {
 
@@ -64,6 +66,24 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
     private boolean mDebuggingFeaturesDisallowedBySystem;
     private int mDevHitCountdown;
     private boolean mProcessingLastDevHit;
+
+    public final static java.lang.String[] insults = {
+            "Stop it!",
+            "What are you doing??",
+            "Just, don't!",
+            "Maybe you should use iOS instead...",
+            "This is not Windows",
+            "Pushing it won't make you any smarter!",
+            "error code: 1D10T",
+            "404: Brain not found!",
+            "Sometimes you honestly disappoint me.",
+            "Pro tip: Stop doing this!",
+            "If you'd be any dumber, you'd need to get watered every now and then.",
+            "Why are you so stupid?!",
+            "git commit -m 'Suicide'",
+            "Don't you have anything better to do?!",
+            "You should be ashamed of yourself!",
+            "Stop it! Get some help!",};
 
     public BuildNumberPreferenceController(Context context, String key) {
         super(context, key);
@@ -202,7 +222,9 @@ public class BuildNumberPreferenceController extends BasePreferenceController im
             if (mDevHitToast != null) {
                 mDevHitToast.cancel();
             }
-            mDevHitToast = Toast.makeText(mContext, R.string.show_dev_already,
+            Random randomInsult = new Random();
+            final int toasts = randomInsult.nextInt(insults.length);
+            mDevHitToast = Toast.makeText(mContext, insults[toasts],
                     Toast.LENGTH_LONG);
             mDevHitToast.show();
             mMetricsFeatureProvider.action(
