@@ -36,4 +36,7 @@
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Battery optimization availability</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+
 </resources>
