@@ -36,4 +36,10 @@
     <string name="min_refresh_rate_title">Minimum képernyő frissítési sebesség</string>
     <string name="max_refresh_rate_title">Maximum képernyő frissítési sebesség</string>
 
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Összes memória</string>
+
 </resources>
