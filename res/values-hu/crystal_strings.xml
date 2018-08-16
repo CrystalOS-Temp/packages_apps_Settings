@@ -171,4 +171,8 @@
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Képernyőkép hangja</string>
 
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Zárképernyő töltés infó</string>
+    <string name="lockscreen_battery_info_summary">Jelenítse meg a töltés áramerősségét, feszültségét, és az akkumulátor hőmérsékletét a zárképernyőn</string>
+
 </resources>
