@@ -72,4 +72,7 @@
     <string name="volume_button_music_control_title">Lejátszás vezérlés</string>
     <string name="volume_button_music_control_summary">A hangerő gomb hosszú nyomása kikapcsolt képernyőnél vált a zenék között</string>
 
+    <!-- Density category -->
+    <string name="density_category">Képpont sűrűségi opciók</string>
+
 </resources>
