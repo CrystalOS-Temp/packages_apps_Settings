@@ -64,4 +64,8 @@
 	<string name="max_refresh_rate_title">Maximum refresh rate</string>
 	<string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
 
+     <!-- Media gestures -->
+     <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
+     <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
+
 </resources>
