@@ -141,4 +141,12 @@
     <string name="volume_media_output_toggle_title">Médiavezérlő a hangerő panelen</string>
     <string name="volume_media_output_toggle_summary">Mutassa a médiavezérlőt a hangerő panelen ha van aktív lejátszás</string>
 
+    <!-- Battery charge warning -->
+    <string name="notification_sound_battery_charge_title">Engedélyezze az akkumulátor töltöttségi figyelmeztetést</string>
+    <string name="notification_battery_charge_level_title">Akkumulátor töltöttségi figyelmeztetés</string>
+    <string name="notification_battery_charge_level_summary">Játsszon le egy hangot amikor az eszköz töltöttsége eléri a beállított szintet töltéskor</string>
+    <string name="notification_battery_charge_level_seek_bar">Akkumulátor szint</string>
+    <string name="notification_battery_charge_level_ringtone">Csörgés</string>
+    <string name="notification_battery_charge_level_silent">Csendes</string>
+
 </resources>
