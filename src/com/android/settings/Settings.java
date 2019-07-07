@@ -449,4 +449,5 @@ public class Settings extends SettingsActivity {
      * Activity for Running Services icon on the QS panel
      **/
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+    public static class SmartPixelsActivity extends SettingsActivity {}
 }
