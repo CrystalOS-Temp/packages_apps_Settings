@@ -122,6 +122,7 @@
     <uses-permission android:name="android.permission.SEND_SAFETY_CENTER_UPDATE" />
     <uses-permission android:name="android.permission.START_VIEW_APP_FEATURES" />
 
+    <!-- This is the longest AndroidManifest.xml ever. -->
     <application
             android:name=".SettingsApplication"
             android:label="@string/settings_label"
@@ -4496,7 +4497,6 @@
             </intent-filter>
         </activity>
 
-        <!-- This is the longest AndroidManifest.xml ever. -->
         <!-- Provide direct entry into Dev settings - Running Services -->
         <activity android:name="Settings$DevRunningServicesActivity"
                 android:label="@string/runningservices_settings_title"
@@ -4517,5 +4517,19 @@
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
+
+        <activity android:name=".Settings$SmartPixelsActivity"
+            android:label="@string/smart_pixels_title"
+            android:taskAffinity="com.android.settings"
+            android:exported="true"
+            android:parentActivityName="Settings">
+            <intent-filter android:priority="1">
+                <action android:name="android.settings.SMART_PIXELS_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.crystal.mine.fragments.extras.SmartPixels" />
+        </activity>
+
     </application>
 </manifest>
