@@ -521,4 +521,9 @@ public class Settings extends SettingsActivity {
      * Activity for Mine
      **/
     public static class CrystalHomepageActivity extends SettingsActivity {/* empty */}
+
+    /**
+    * Smart Pixels
+    */
+    public static class SmartPixelsActivity extends SettingsActivity {}
 }
