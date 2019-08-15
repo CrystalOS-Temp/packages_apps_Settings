@@ -67,4 +67,8 @@
     <string name="usercard_summary">Jelenlegi aktív felhasználó, érintse meg további információkért</string>
     <string name="connectivity_category_title">kapcsolat</string>
 
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Kliensek VPN használata</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Engedélyezi a hotspot klienseknek hogy az eszköz VPN kapcsolatát használják internet elérésre</string>
+
 </resources>
