@@ -21,14 +21,11 @@
     android:title="@string/software_info_title"
     settings:keywords="@string/keywords_android_version">
 
-    <!-- Android version -->
-    <Preference
-        android:key="os_firmware_version"
-        android:title="@string/firmware_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:searchable="false"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
+    <!-- Crystal logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="crystal_logo"
+        android:layout="@layout/crystal_logo"
+        android:selectable="false"/>
 
     <!-- ROM Version -->
     <Preference
@@ -37,6 +34,15 @@
         android:summary="@string/device_info_default"
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.CrystalVersionPreferenceController"/>
+
+    <!-- Android version -->
+    <Preference
+        android:key="os_firmware_version"
+        android:title="@string/firmware_version"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:searchable="false"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
     <!-- Crystal maintainer -->
     <Preference
