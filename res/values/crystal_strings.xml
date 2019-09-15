@@ -54,4 +54,7 @@
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
+    <!-- Battery temperature -->
+    <string name="battery_temp">Battery temperature</string>
+
 </resources>
