@@ -75,4 +75,7 @@
     <!-- Density category -->
     <string name="density_category">Képpont sűrűségi opciók</string>
 
+    <!-- Battery temperature -->
+    <string name="battery_temp">Akkumulátor hőmérséklete</string>
+
 </resources>
