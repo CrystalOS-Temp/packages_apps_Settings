@@ -15,4 +15,10 @@
     <!-- CrystalOS version in About phone -->
     <string name="crystal_version_title">Crystal version</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+
 </resources>
