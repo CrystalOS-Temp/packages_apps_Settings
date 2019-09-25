@@ -15,4 +15,10 @@
     <!-- CrystalOS version in About phone -->
     <string name="crystal_version_title">Crystal verzió</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux állapota</string>
+    <string name="selinux_status_disabled">Letiltva</string>
+    <string name="selinux_status_permissive">Engedékeny</string>
+    <string name="selinux_status_enforcing">Szigorú</string>
+
 </resources>
