@@ -107,4 +107,8 @@
     <string name="doze_double_tap_title">Koppintson kétszer a telefon megnézéséhez</string>
     <string name="doze_double_tap_summary">Értesítések felvillantása dupla koppintásra</string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Simításra képernyőkép</string>
+    <string name="swipe_to_screenshot_gesture_summary">Simítson 3 ujjal a képernyőn képernyőkép készítéséhez</string>
+
 </resources>
