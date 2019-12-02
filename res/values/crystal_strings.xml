@@ -12,8 +12,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-     <!-- CrystalOS version in About phone -->
+     <!-- CrystalOS in About phone -->
      <string name="crystal_version_title">Crystal version</string>
+     <string name="about_device_name">Device</string>
 
      <!-- Crystal maintainer -->
      <string name="maintainer">Maintainer</string>
