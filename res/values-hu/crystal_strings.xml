@@ -14,6 +14,7 @@
 
     <!-- CrystalOS version in About phone -->
     <string name="crystal_version_title">Crystal verzió</string>
+    <string name="about_device_name">Eszköz</string>
 
     <!-- Crystal maintainer -->
     <string name="maintainer">Fenntartó</string>
