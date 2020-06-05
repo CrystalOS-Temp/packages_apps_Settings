@@ -248,4 +248,12 @@
     <string name="scarlet_aggressive_mode_sensors_toggle_summary">Disable Sensors when Scarlet\'s aggressive mode is enabled</string>
     <string name="scarlet_manager_display_text">Scarlet\'s aggressive mode will disable selected system services when device screen is off to conserve power consupmtion.</string>
 
+    <!-- OOS Vibration patterns -->
+    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="pattern_dzzz_dzzz" translatable="false">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da" translatable="false">dzzz-da</string>
+    <string name="pattern_mm_mm_mm" translatable="false">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz" translatable="false">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da" translatable="false">da-dzzz-da</string>
+
 </resources>

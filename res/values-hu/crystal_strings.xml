@@ -247,5 +247,7 @@
     <string name="scarlet_aggressive_mode_sensors_toggle_summary">Szenzorok automatikus kikapcsolása amikor a Scarlet Agresszív mód aktív</string>
     <string name="scarlet_manager_display_text">A Scarlet agresszív módja kikapcsol bizonyos szolgáltatásokat hogy csökkentse az eszköz akkumulátor használatát.</string>
 
+    <!-- OOS Vibration Patterns -->
+    <string name="vibration_pattern_title">Csörgés rezgési mintája</string>
 
 </resources>
