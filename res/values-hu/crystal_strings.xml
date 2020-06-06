@@ -249,5 +249,14 @@
 
     <!-- OOS Vibration Patterns -->
     <string name="vibration_pattern_title">Csörgés rezgési mintája</string>
+    <string name="pattern_custom">Egyéni</string>
+    <string name="custom_vibration_pattern_title">Egyéni minta</string>
+    <string name="custom_vibration_pattern_summary">Beállíthat egyéni rezgés mintát</string>
+
+    <!-- Units -->
+    <string name="unit_seconds">másodperc</string>
+    <string name="unit_milliseconds">tizedmásodperc</string>
+    <string name="unit_pixels">pixel</string>
+    <string name="unit_hz">hertz</string>
 
 </resources>
