@@ -117,4 +117,7 @@
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Charging vibration</string>
 
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
+
 </resources>

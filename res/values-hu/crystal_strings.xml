@@ -116,4 +116,7 @@
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Töltő rezgés</string>
 
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Zárképernyő időkorlátja</string>
+
 </resources>
