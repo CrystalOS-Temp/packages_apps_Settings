@@ -187,4 +187,10 @@
     <string name="bluetooth_timeout_summary_4hours">4 óra</string>
     <string name="bluetooth_timeout_summary_8hours">8 óra</string>
 
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Teljesképernyős appok</string>
+    <string name="display_cutout_force_fullscreen_summary">Kényszerítse az appokat hogy figyelmen kívül hagyják a képernyőkivágást</string>
+    <string name="display_cutout_force_fullscreen_no_apps">Nincsenek appok</string>
+    <string name="display_cutout_force_fullscreen_restart_app">Indítsa újra az alkalmazást a változások alkalmazásához.</string>
+
 </resources>
