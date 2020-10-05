@@ -89,4 +89,8 @@
      <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
      <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
 
+     <!-- Haptic feedback on back gesture -->
+     <string name="back_gesture_haptic_title">Haptic feedback</string>
+     <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+
 </resources>
