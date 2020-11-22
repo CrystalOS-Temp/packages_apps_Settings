@@ -31,4 +31,7 @@
     <string name="color_mode_balance_blue">Kék</string>
     <string name="keywords_color_balance">szín, szín egyensúly, szín javítás, piros, zöld, kék, LiveDisplay</string>
 
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Képernyő frissítési sebesség</string>
+
 </resources>
