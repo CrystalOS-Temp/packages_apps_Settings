@@ -16,4 +16,6 @@
      <!-- Device specific doze package -->
      <string name="config_customDozePackage" translatable="false"></string>
 
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Screen refresh rate</string>
 </resources>
