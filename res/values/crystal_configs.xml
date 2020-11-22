@@ -13,6 +13,10 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="?android:attr/textColorPrimary" />
-</selector>
+
+<resources>
+
+    <!-- Whether to show min refresh rate in display settings -->
+    <bool name="config_show_min_refresh_rate_switch">false</bool>
+
+</resources>
