@@ -53,6 +53,9 @@
      <!-- Quick unlock -->
      <string name="unlock_quick_unlock_control_title">Quick unlock</string>
      <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
+     <!-- Refresh rate -->
+     <string name="refresh_rate_title">Screen refresh rate</string>
    
      <!-- Screenshot shutter sound -->
      <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
