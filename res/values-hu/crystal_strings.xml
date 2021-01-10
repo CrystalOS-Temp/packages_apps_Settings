@@ -108,4 +108,9 @@
     <string name="display_rotation_180_title">180 fok</string>
     <string name="display_rotation_270_title">270 fok</string>
 
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dupla koppintás</string>
+    <string name="doze_double_tap_title">Dupla koppintásra értesítés</string>
+    <string name="doze_double_tap_summary">Villantsa fel az értesítéseket dupla koppintásra</string>
+
 </resources>
