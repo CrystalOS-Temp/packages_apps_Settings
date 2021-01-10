@@ -102,4 +102,9 @@
     <!-- Deep Sleep percentage in device info -->
     <string name="status_sleep_time">Mélyalvás</string>
 
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Dupla koppintás</string>
+    <string name="doze_double_tap_title">Koppintson kétszer a telefon megnézéséhez</string>
+    <string name="doze_double_tap_summary">Értesítések felvillantása dupla koppintásra</string>
+
 </resources>
