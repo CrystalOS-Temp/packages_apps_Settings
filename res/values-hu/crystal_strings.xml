@@ -99,4 +99,7 @@
          Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
     <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Érintse meg az olvasót az eszköz feloldásához akkor is, ha az eszköz alszik. A közelségérzékelő gondoskodik a véletlen feloldásokról.</string>
 
+    <!-- Deep Sleep percentage in device info -->
+    <string name="status_sleep_time">Mélyalvás</string>
+
 </resources>
