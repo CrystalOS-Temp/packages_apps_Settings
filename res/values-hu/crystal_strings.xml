@@ -28,4 +28,9 @@
     <string name="copied_to_clipboard">Másolva a vágólapra</string>
     <string name="longpress_to_clipboard">Nyomja hosszan a másoláshoz</string>
 
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Kevesebb mint 1 perc</string> 
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s ma</string>
+
 </resources>
