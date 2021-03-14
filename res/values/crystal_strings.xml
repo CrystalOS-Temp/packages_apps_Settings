@@ -171,4 +171,8 @@
     <string name="ring_only_volume_option_title">Ring volume</string>
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- Volume dialog position -->
+    <string name="volume_panel_on_left_title">Left volume panel</string>
+    <string name="volume_panel_on_left_summary">Show the volume panel on the left side of the screen</string>
+
 </resources>
