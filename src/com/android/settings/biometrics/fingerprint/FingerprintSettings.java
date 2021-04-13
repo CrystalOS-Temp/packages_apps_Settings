@@ -16,7 +16,6 @@
 
 package com.android.settings.biometrics.fingerprint;
 
-
 import static com.android.settings.Utils.SETTINGS_PACKAGE_NAME;
 
 import android.app.Activity;
@@ -36,6 +35,7 @@ import android.os.UserHandle;
 import android.os.UserManager;
 import android.text.InputFilter;
 import android.text.Spanned;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
@@ -56,6 +56,7 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.SubSettings;
 import com.android.settings.Utils;
+import com.android.settings.accessibility.DividerSwitchPreference;
 import com.android.settings.biometrics.BiometricEnrollBase;
 import com.android.settings.biometrics.BiometricUtils;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
@@ -117,6 +118,8 @@ public class FingerprintSettings extends SubSettings {
         private static final String KEY_FINGERPRINT_ADD = "key_fingerprint_add";
         private static final String KEY_FINGERPRINT_ENABLE_KEYGUARD_TOGGLE =
                 "fingerprint_enable_keyguard_toggle";
+        private static final String KEY_FINGERPRINT_POWER_BUTTON_PRESS =
+                "fingerprint_power_button_press";
         private static final String KEY_LAUNCHED_CONFIRM = "launched_confirm";
 
         private static final int MSG_REFRESH_FINGERPRINT_TEMPLATES = 1000;
@@ -402,6 +405,12 @@ public class FingerprintSettings extends SubSettings {
             return root;
         }
 
+        private boolean isPowerButtonPressEnabled() {
+            return Settings.Secure.getIntForUser(getContext().getContentResolver(),
+                       Settings.Secure.FINGERPRINT_POWER_BUTTON_PRESS, 0,
+                       UserHandle.USER_CURRENT) == 1;
+        }
+
         private void addFingerprintItemPreferences(PreferenceGroup root) {
             root.removeAll();
             final List<Fingerprint> items = mFingerprintManager.getEnrolledFingerprints(mUserId);
@@ -431,6 +440,18 @@ public class FingerprintSettings extends SubSettings {
             root.addPreference(addPreference);
             addPreference.setOnPreferenceChangeListener(this);
             updateAddPreference();
+            if (getContext().getResources().getBoolean(
+                    com.android.internal.R.bool.config_powerButtonFingerprint)) {
+                DividerSwitchPreference powerButtonPref = new DividerSwitchPreference(root.getContext());
+                powerButtonPref.setKey(KEY_FINGERPRINT_POWER_BUTTON_PRESS);
+                powerButtonPref.setTitle(R.string.fingerprint_power_button_press_title);
+                powerButtonPref.setSummary(isPowerButtonPressEnabled() ?
+                        R.string.fingerprint_power_button_press_on_summary :
+                        R.string.fingerprint_power_button_press_off_summary);
+                powerButtonPref.setChecked(isPowerButtonPressEnabled());
+                powerButtonPref.setOnPreferenceChangeListener(this);
+                root.addPreference(powerButtonPref);
+            }
             createFooterPreference(root);
         }
 
@@ -583,6 +604,14 @@ public class FingerprintSettings extends SubSettings {
             final String key = preference.getKey();
             if (KEY_FINGERPRINT_ENABLE_KEYGUARD_TOGGLE.equals(key)) {
                 // TODO
+            } else if (KEY_FINGERPRINT_POWER_BUTTON_PRESS.equals(key)) {
+                boolean enabled = (Boolean) value;
+                result = Settings.Secure.putIntForUser(getContext().getContentResolver(),
+                             Settings.Secure.FINGERPRINT_POWER_BUTTON_PRESS,
+                             enabled ? 1 : 0, UserHandle.USER_CURRENT);
+                if (result)
+                    preference.setSummary(enabled ? R.string.fingerprint_power_button_press_on_summary
+                            : R.string.fingerprint_power_button_press_off_summary);
             } else {
                 Log.v(TAG, "Unknown key:" + key);
             }
