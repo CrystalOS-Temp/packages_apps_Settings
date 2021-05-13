@@ -199,4 +199,8 @@
     <string name="app_lock_notifications_disabled_summary">Előbb védjen meg egy alkalmazást</string>
     <string name="app_lock_footer_text">A buborékok automatikusan eltűnnek az időkorlát lejárta után</string>
 
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Egyszeri automatikus fényerő</string>
+    <string name="auto_brightness_one_shot_summary">A fényerő csak akkor lesz automatikusan állítva amikor a képernyő bekapcsol</string>
+
 </resources>
