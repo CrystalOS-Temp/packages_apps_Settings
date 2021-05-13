@@ -118,4 +118,8 @@
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Zárképernyő időkorlátja</string>
 
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Egyszeri automatikus fényerő</string>
+    <string name="auto_brightness_one_shot_summary">Csak az eszköz felkeltésekor ellenőrizze a környezeti fényt az automatikus fényerő beállításához</string>
+
 </resources>
