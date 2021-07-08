@@ -24,4 +24,11 @@
     <string name="selinux_status_permissive">Engedékeny</string>
     <string name="selinux_status_enforcing">Szigorú</string>
 
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Szín egyensúly</string>
+    <string name="color_mode_balance_red">Piros</string>
+    <string name="color_mode_balance_green">Zöld</string>
+    <string name="color_mode_balance_blue">Kék</string>
+    <string name="keywords_color_balance">szín, szín egyensúly, szín javítás, piros, zöld, kék, LiveDisplay</string>
+
 </resources>
