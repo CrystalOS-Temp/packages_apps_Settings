@@ -1790,6 +1790,10 @@
     <string name="wifi_eap_identity">Identity</string>
     <!-- Label for the EAP anonymous identity of the network -->
     <string name="wifi_eap_anonymous">Anonymous identity</string>
+    <!-- Menu option for not validating the EAP server -->
+    <string name="wifi_do_not_validate_eap_server">Do not validate</string>
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
     <!-- Label for the password of the secured network -->
     <string name="wifi_password">Password</string>
     <!-- Label for the check box to show password -->
