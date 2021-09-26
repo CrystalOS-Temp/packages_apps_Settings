@@ -3397,7 +3397,7 @@
     <string name="enhanced_4g_lte_mode_title" msgid="6624700245232361149">"VoLTE"</string>
     <string name="enhanced_4g_lte_mode_title_advanced_calling" msgid="7066009898031465265">"అధునాతన కాలింగ్"</string>
     <string name="enhanced_4g_lte_mode_title_4g_calling" msgid="7445853566718786195">"4G కాలింగ్"</string>
-    <string name="enhanced_4g_lte_mode_summary" msgid="6776190202179584104">"వాయిస్, ఇతర కమ్యూనికేషన్‌లను మెరుగుపరచడానికి LTE సేవలను ఉపయోగించు (సిఫార్సు చేయబడింది)"</string>
+    <string name="enhanced_4g_lte_mode_summary" msgid="6776190202179584104">"వాయిస్, ఇతర కమ్యూనికేషన్‌లను మెరుగుపరచడానికి LTE సర్వీస్‌లను ఉపయోగించు (సిఫార్సు చేయబడింది)"</string>
     <string name="enhanced_4g_lte_mode_summary_4g_calling" msgid="7814006095552641136">"వాయిస్, ఇతర కమ్యూనికేషన్‌లను మెరుగుపరచడానికి 4G సేవలను ఉపయోగించండి (సిఫార్సు చేయబడింది)"</string>
     <string name="contact_discovery_opt_in_title" msgid="8708034790649773814">"కాంటాక్ట్‌లను క్యారియర్‌కు పంపండి"</string>
     <string name="contact_discovery_opt_in_summary" msgid="6539010458256667300">"మెరుగైన ఫీచర్‌లను అందించడానికి మీ కాంటాక్ట్‌ల ఫోన్ నంబర్‌లను పంపండి"</string>
