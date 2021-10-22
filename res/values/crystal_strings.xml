@@ -61,4 +61,8 @@
     <string name="dev_options_insult_19">Go back to your stock ROM</string>
     <string name="dev_options_insult_20">You look like a person who plays PUBG on his phone</string>
 
+    <!-- Mine -->
+    <string name="crystal_homepage_title" translatable="false">Crystal Mine</string>
+    <string name="crystal_homepage_summary">Every extra Android could give you!</string>
+
 </resources>

@@ -36,7 +36,7 @@
     <!-- Summary for list to control apps that ignore battery saving restrictions -->
     <string name="high_power_apps_summary">Alkalmazások akkumulátor használat szabályzása</string>
 
-	<!-- Notification log -->
+    <!-- Notification log -->
     <string name="notification_log_summary">Értesítési előzmények megjelenítése</string>
 
     <!-- Dev Options Toast Insulter -->
@@ -60,5 +60,8 @@
     <string name="dev_options_insult_18">Ettől nem tűnsz menőbbnek</string>
     <string name="dev_options_insult_19">Inkább menj vissza a gyári rendszeredre!</string>
     <string name="dev_options_insult_20">Úgy nézel ki mint valaki aki a telefonján játszik PUBG-t</string>
+
+    <!-- Mine -->
+    <string name="crystal_homepage_summary">Minden extra amit az Android nyújthat számára!</string>
 
 </resources>
