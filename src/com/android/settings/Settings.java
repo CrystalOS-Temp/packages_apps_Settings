@@ -430,10 +430,18 @@ public class Settings extends SettingsActivity {
      */
     public static class AppDashboardActivity extends SettingsActivity {}
 
+    /**
+     * Activity for AdaptiveBrightnessSettings
+     */
     public static class AdaptiveBrightnessActivity extends SettingsActivity { /* empty */ }
 
     /**
      * Activity for OneHandedSettings
      */
     public static class OneHandedSettingsActivity extends SettingsActivity { /* empty */ }
+
+    /**
+     * Activity for Crystal Mine
+     **/
+    public static class CrystalHomepageActivity extends SettingsActivity {/* empty */}
 }

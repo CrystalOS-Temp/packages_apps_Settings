@@ -19,6 +19,10 @@
 	<!-- Crystal maintainer -->
 	<string name="maintainer">Maintainer</string>
 
+    <!-- Mine -->
+    <string name="crystal_homepage_title">Crystal Mine</string>
+    <string name="crystal_homepage_summary">Where the colorful lights are coming from!</string>
+
 	<!-- SELinux Status -->
 	<string name="selinux_status">SELinux status</string>
 	<string name="selinux_status_disabled">Disabled</string>

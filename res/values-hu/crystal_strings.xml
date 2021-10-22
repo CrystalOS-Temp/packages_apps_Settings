@@ -19,6 +19,10 @@
     <!-- Crystal maintainer -->
     <string name="maintainer">Fenntartó</string>
 
+    <!-- Mine -->
+    <string name="crystal_homepage_title">Crystal Mine</string>
+    <string name="crystal_homepage_summary">Ahonnan a színes fények származnak!</string>
+
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux állapota</string>
     <string name="selinux_status_disabled">Letiltva</string>
