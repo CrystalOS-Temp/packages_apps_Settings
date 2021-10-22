@@ -24,4 +24,8 @@
     <string name="selinux_status_permissive">Permissive</string>
     <string name="selinux_status_enforcing">Enforcing</string>
 
+    <!-- Mine -->
+    <string name="crystal_homepage_title">Mine</string>
+    <string name="crystal_homepage_summary">Where the colorful lights are coming from!</string>
+
 </resources>
