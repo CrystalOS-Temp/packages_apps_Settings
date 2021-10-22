@@ -179,6 +179,8 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSettings2;
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
+import com.crystal.mine.CrystalHomepage;
+
 public class SettingsGateway {
 
     /**
@@ -345,11 +347,13 @@ public class SettingsGateway {
             MobileNetworkSettings.class.getName(),
             AppLocaleDetails.class.getName(),
             TurnScreenOnSettings.class.getName(),
-            TurnScreenOnDetails.class.getName()
+            TurnScreenOnDetails.class.getName(),
+            CrystalHomepage.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
             // Home page
+            Settings.CrystalHomepageActivity.class.getName(),
             Settings.NetworkDashboardActivity.class.getName(),
             Settings.ConnectedDeviceDashboardActivity.class.getName(),
             Settings.AppDashboardActivity.class.getName(),
