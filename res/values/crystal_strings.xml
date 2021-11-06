@@ -12,28 +12,28 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- CrystalOS version in About phone -->
-    <string name="crystal_version_title">Crystal version</string>
+     <!-- CrystalOS version in About phone -->
+     <string name="crystal_version_title">Crystal version</string>
 
-    <!-- Crystal maintainer -->
-    <string name="maintainer">Maintainer</string>
+     <!-- Crystal maintainer -->
+     <string name="maintainer">Maintainer</string>
 
-    <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Disabled</string>
-    <string name="selinux_status_permissive">Permissive</string>
-    <string name="selinux_status_enforcing">Enforcing</string>
+     <!-- SELinux Status -->
+     <string name="selinux_status">SELinux status</string>
+     <string name="selinux_status_disabled">Disabled</string>
+     <string name="selinux_status_permissive">Permissive</string>
+     <string name="selinux_status_enforcing">Enforcing</string>
 
-    <!-- Mine -->
-    <string name="crystal_homepage_title">Mine</string>
-    <string name="crystal_homepage_summary">Where the colorful lights are coming from!</string>
+     <!-- Mine -->
+     <string name="crystal_homepage_title">Mine</string>
+     <string name="crystal_homepage_summary">Where the colorful lights are coming from!</string>
 
-    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+     <string name="color_mode_balance_category">Color balance</string>
+     <string name="color_mode_balance_red">Red strength</string>
+     <string name="color_mode_balance_green">Green strength</string>
+     <string name="color_mode_balance_blue">Blue strength</string>
+     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
 
      <!-- Lock screen pattern size -->
      <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
@@ -50,4 +50,8 @@
      <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
      <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
+     <!-- Quick unlock -->
+     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+   
 </resources>
