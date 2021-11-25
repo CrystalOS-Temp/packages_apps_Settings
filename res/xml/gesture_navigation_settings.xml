@@ -23,6 +23,12 @@
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
+        <com.crystal.mine.preferences.SystemSettingSwitchPreference
+            android:key="fullscreen_gestures"
+            android:title="@string/fullscreen_gestures_title"
+            android:summary="@string/fullscreen_gestures_summary"
+            android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="assistant_gesture_category"
         android:persistent="false"
@@ -55,6 +61,7 @@
             android:max="2"
             settings:textStart="@string/low_label"
             settings:textEnd="@string/high_label"/>
+
     </PreferenceCategory>
 
     <com.android.settingslib.widget.FooterPreference
@@ -62,5 +69,5 @@
         android:title="@string/back_sensitivity_dialog_message"
         android:selectable="false"
         settings:searchable="false"/>
-</PreferenceScreen>
 
+</PreferenceScreen>
