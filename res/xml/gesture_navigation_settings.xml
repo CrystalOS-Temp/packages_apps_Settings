@@ -23,11 +23,13 @@
     android:title="@string/gesture_settings_activity_title"
     settings:keywords="@string/keywords_gesture_navigation_settings">
 
-        <com.crystal.mine.preferences.SystemSettingSwitchPreference
-            android:key="fullscreen_gestures"
-            android:title="@string/fullscreen_gestures_title"
-            android:summary="@string/fullscreen_gestures_summary"
-            android:defaultValue="false" />
+    <com.android.settings.widget.LabeledSeekBarPreference
+        android:key="gesture_navbar_length_preference"
+        android:title="@string/gesture_navbar_length_title"
+        android:max="3"
+        android:selectable="true"
+        settings:textStart="@string/hide_label"
+        settings:textEnd="@string/long_label"/>
 
     <PreferenceCategory
         android:key="assistant_gesture_category"
