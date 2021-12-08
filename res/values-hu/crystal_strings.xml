@@ -56,11 +56,10 @@
     <!-- Battery temperature -->
     <string name="battery_temp">Akkumulátor hőmérséklete</string>
 
-    <!-- Fullscreen gestures -->
-    <string name="other_controls_title">Egyéb vezérlők</string>
-    <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="hide_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Navigációs sáv hossza</string>
+    <string name="hide_label">Rejtett</string>
+    <string name="long_label">Hosszú</string>
 
     <!-- Dashboard cards -->
     <string name="wellbeing_title">Google Jóllét</string>
