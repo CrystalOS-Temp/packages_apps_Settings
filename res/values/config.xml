@@ -548,4 +548,9 @@
 
     <!-- Whether to aggregate for network selection list-->
     <bool name="config_network_selection_list_aggregation_enabled">false</bool>
+
+    <!-- Whether the devicename is overlayed by the device-tree -->
+    <bool name="config_isDeviceNameOverlayed">false</bool>
+    <string name="config_OverlayedDeviceName"></string>
+
 </resources>
