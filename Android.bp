@@ -44,7 +44,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java",
+           "Mine/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.crystal.mine"],
+
+    resource_dirs: ["res",
+                    "Mine/res"
+    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
@@ -73,6 +81,7 @@ android_library {
         "android.hardware.dumpstate-V1.0-java",
         "android.hardware.dumpstate-V1.1-java",
         "lottie",
+        "VendorSupport-preference",
     ],
 
     libs: [
@@ -80,6 +89,9 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
+    optimize: {
+        proguard_flags_files: ["proguard-core.flags"],
+    },
 }
 
 platform_compat_config {
