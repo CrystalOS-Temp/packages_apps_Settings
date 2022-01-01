@@ -501,13 +501,7 @@ public class ChooseLockPattern extends SettingsActivity {
                     layout.getMixin(IconMixin.class).setVisibility(View.GONE);
                 }
             } else {
-                if (mForFingerprint) {
-                    layout.setIcon(getActivity().getDrawable(R.drawable.ic_fingerprint_header));
-                } else if (mForFace) {
-                    layout.setIcon(getActivity().getDrawable(R.drawable.ic_face_header));
-                } else if (mForBiometrics) {
-                    layout.setIcon(getActivity().getDrawable(R.drawable.ic_lock));
-                }
+                layout.setIcon(getActivity().getDrawable(R.drawable.ic_lock));
             }
 
             final FooterBarMixin mixin = layout.getMixin(FooterBarMixin.class);
@@ -676,6 +670,7 @@ public class ChooseLockPattern extends SettingsActivity {
                             + " when button is " + RightButtonMode.Confirm);
                 }
                 startSaveAndFinish();
+                Utils.savePINPasswordLength(mLockPatternUtils, 0, mUserId);
             } else if (mUiStage.rightMode == RightButtonMode.Ok) {
                 if (mUiStage != Stage.HelpScreen) {
                     throw new IllegalStateException("Help screen is only mode with ok button, "

@@ -48,6 +48,15 @@ public class DeviceNamePreferenceController extends BasePreferenceController
     @VisibleForTesting
     static final int RES_SHOW_DEVICE_NAME_BOOL = R.bool.config_show_device_name;
     private String mDeviceName;
+
+    // Used only if isDeviceNameOverlayed is set to true and this is not empty,
+    // this will be the overlay for the new device name in case it needs to be
+    // overwritten by the device tree.
+    private String mOverlayedDeviceName;
+
+    // Used for checking whether the devicename is overlayed by the device tree or not.
+    private boolean isDeviceNameOverlayed;
+
     protected WifiManager mWifiManager;
     private final BluetoothAdapter mBluetoothAdapter;
     private final WifiDeviceNameTextValidator mWifiDeviceNameTextValidator;
@@ -58,6 +67,8 @@ public class DeviceNamePreferenceController extends BasePreferenceController
     public DeviceNamePreferenceController(Context context, String key) {
         super(context, key);
 
+        mOverlayedDeviceName = context.getResources().getString(R.string.config_OverlayedDeviceName);
+        isDeviceNameOverlayed = context.getResources().getBoolean(R.bool.config_isDeviceNameOverlayed);
         mWifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
         mWifiDeviceNameTextValidator = new WifiDeviceNameTextValidator();
         mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
@@ -75,11 +86,20 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         mPreference.setValidator(this);
     }
 
-    private void initializeDeviceName() {
-        mDeviceName = Settings.Global.getString(mContext.getContentResolver(),
-                Settings.Global.DEVICE_NAME);
-        if (mDeviceName == null) {
-            mDeviceName = Build.MODEL;
+    private void initializeDeviceName()
+    {
+        if (isDeviceNameOverlayed == true
+         && mOverlayedDeviceName != null)
+        {
+            mDeviceName = mOverlayedDeviceName;
+        }
+        else
+        {
+            mDeviceName = Settings.Global.getString(mContext.getContentResolver(), Settings.Global.DEVICE_NAME);
+                if (mDeviceName == null)
+                {
+                    mDeviceName = Build.MODEL;
+                }
         }
     }
 
