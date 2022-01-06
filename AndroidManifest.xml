@@ -50,6 +50,7 @@
     <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES"/>
     <uses-permission android:name="android.permission.PACKAGE_USAGE_STATS"/>
     <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.RESET_BATTERY_STATS"/>
     <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.MOVE_PACKAGE" />
@@ -2002,6 +2003,10 @@
             android:label="@string/lockpassword_choose_lock_generic_header"
             android:excludeFromRecents="true" />
 
+        <activity android:name=".password.ChooseLockPatternSize"
+            android:exported="false"
+            android:theme="@style/GlifTheme.Light" />
+
         <activity android:name=".password.SetupChooseLockPattern"
             android:exported="false"
             android:theme="@style/GlifTheme.Light" />
@@ -3601,6 +3606,14 @@
                 </intent-filter>
                 <intent-filter>
                     <action android:name="android.settings.panel.action.VOLUME" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="android.settings.panel.action.MOBILE_DATA" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+                <intent-filter>
+                    <action android:name="android.settings.panel.action.BLUETOOTH" />
                     <category android:name="android.intent.category.DEFAULT" />
                 </intent-filter>
         </activity>
