@@ -171,6 +171,8 @@
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">Teljesképernyős alkalmazások</string>
     <string name="display_cutout_force_fullscreen_summary">Kényszerítse az alkalmazásokat hogy figyelmen kívül hagyják a képernyőkivágást</string>
+    <string name="search">Keresés</string>
+    <string name="search_apps">Keresés az alkalmazások között</string>
 
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Vissza gesztus animáció</string>
