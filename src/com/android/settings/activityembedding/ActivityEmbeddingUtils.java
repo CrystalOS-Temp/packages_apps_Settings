@@ -17,7 +17,9 @@
 package com.android.settings.activityembedding;
 
 import android.app.Activity;
+import android.app.ActivityTaskManager;
 import android.content.Context;
+import android.graphics.Rect;
 import android.util.DisplayMetrics;
 import android.util.FeatureFlagUtils;
 import android.util.Log;
@@ -80,5 +82,14 @@ public class ActivityEmbeddingUtils {
         DisplayMetrics dm = activity.getResources().getDisplayMetrics();
         return dm.widthPixels >= (int) TypedValue.applyDimension(
                 TypedValue.COMPLEX_UNIT_DIP, MIN_REGULAR_HOMEPAGE_LAYOUT_WIDTH_DP, dm);
+    }
+
+    /** Whether the screen meets two-pane resolution. */
+    public static boolean isTwoPaneResolution(Activity activity) {
+        final Rect currentTaskBounds =
+                ActivityTaskManager.getInstance().getTaskBounds(activity.getTaskId());
+
+        return currentTaskBounds.width() >= getMinCurrentScreenSplitWidthPx(activity)
+                && currentTaskBounds.height() >= getMinSmallestScreenSplitWidthPx(activity);
     }
 }
