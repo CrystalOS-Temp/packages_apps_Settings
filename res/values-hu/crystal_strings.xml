@@ -84,4 +84,9 @@
     <string name="hide_label">Hidden</string>
     <string name="long_label">Long</string>
 
+    <!-- Dashboard cards -->
+    <string name="wellbeing_title">Google Jóllét</string>
+    <string name="usercard_summary">Jelenlegi aktív felhasználó, érintse meg további információkért</string>
+    <string name="connectivity_category_title">kapcsolat</string>
+
 </resources>

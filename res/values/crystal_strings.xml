@@ -85,4 +85,9 @@
     <string name="hide_label">Hidden</string>
     <string name="long_label">Long</string>
 
+    <!-- Dashboard cards -->
+    <string name="wellbeing_title">Google Wellbeing</string>
+    <string name="usercard_summary">Current active user, tap for more information</string>
+    <string name="connectivity_category_title">connectivity</string>
+
 </resources>
