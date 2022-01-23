@@ -203,4 +203,9 @@
     <string name="auto_brightness_one_shot_title">Egyszeri automatikus fényerő</string>
     <string name="auto_brightness_one_shot_summary">A fényerő csak akkor lesz automatikusan állítva amikor a képernyő bekapcsol</string>
 
+    <!-- Dashboard cards -->
+    <string name="wellbeing_title">Google Jóllét</string>
+    <string name="usercard_summary">Jelenlegi akítv felhasználó, érintse meg további információért</string>
+    <string name="connectivity_category_title">kapcsolat</string>
+
 </resources>
