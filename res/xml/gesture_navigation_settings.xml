@@ -81,7 +81,7 @@
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
 
-    <com.crystal.support.preferences.SystemSettingSwitchPreference
+    <com.crystal.mine.preferences.SystemSettingSwitchPreference
         android:key="back_gesture_haptic"
         android:title="@string/back_gesture_haptic_title"
         android:summary="@string/back_gesture_haptic_summary"
