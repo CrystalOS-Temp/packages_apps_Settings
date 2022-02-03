@@ -21,6 +21,7 @@ import android.content.Intent;
 import android.hardware.fingerprint.FingerprintManager;
 import android.hardware.fingerprint.FingerprintSensorPropertiesInternal;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.accessibility.AccessibilityManager;
@@ -95,8 +96,19 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase implements
                 lottieAnimationView.setAnimation(R.raw.udfps_edu_a11y_lottie);
             }
         } else {
+            final boolean isFrontFacingFps = getResources().getBoolean(
+                    R.bool.config_is_front_facing_fps);
+            final String fpsLocation = getString(mCanAssumeSidefps
+                    ? R.string.fingerprint_enroll_find_sensor_message_side : isFrontFacingFps
+                            ? R.string.fingerprint_enroll_find_sensor_message_front
+                            : R.string.fingerprint_enroll_find_sensor_message_rear);
+
             setHeaderText(R.string.security_settings_fingerprint_enroll_find_sensor_title);
-            setDescriptionText(R.string.security_settings_fingerprint_enroll_find_sensor_message);
+            setDescriptionText(fpsLocation);
+            if (isFrontFacingFps) {
+                findViewById(R.id.fingerprint_sensor_location_front_overlay)
+                        .setVisibility(View.VISIBLE);
+            }
         }
 
         // This is an entry point for SetNewPasswordController, e.g.
