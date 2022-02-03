@@ -42,4 +42,26 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Összes memória</string>
 
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Keresse meg az ujjlenyomat olvasót a tablet elején!</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Keresse meg az ujjlenyomat olvasót az eszköz elején!</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Keresse meg az ujjlenyomat olvasót a telefon elején!</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Keresse meg az ujjlenyomat olvasót a tablet hátulján!</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Keresse meg az ujjlenyomat olvasót az eszköz hátulján!</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Keresse meg az ujjlenyomat olvasót a telefon hátulján!</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Keresse meg az ujjlenyomat olvasót a tablet oldalán!</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Keresse meg az ujjlenyomat olvasót az eszköz oldalán!</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Keresse meg az ujjlenyomat olvasót a telefon oldalán!</string>
+
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Érintse meg az ujjlenyomat olvasót a tablet elején!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Érintse meg az ujjlenyomat olvasót az eszköz elején!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Érintse meg az ujjlenyomat olvasót a telefon elején!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Érintse meg az ujjlenyomat olvasót a tablet hátulján!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Érintse meg az ujjlenyomat olvasót az eszköz hátulján!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Érintse meg az ujjlenyomat olvasót a telefon hátulján!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Érintse meg az ujjlenyomat olvasót a tablet oldalán!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg az ujjlenyomat olvasót az eszköz oldalán!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg az ujjlenyomat olvasót a telefon oldalán!</string>
+
 </resources>
