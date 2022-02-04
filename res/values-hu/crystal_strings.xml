@@ -180,4 +180,21 @@
     <string name="ring_only_volume_option_title">Kombinált hangerő</string>
     <string name="volume_link_notification_title">Csörgési &amp; értesítési hangerők összekötése</string>
 
+    <!-- App lock -->
+    <string name="app_lock_title">Alkalmazás zár</string>
+    <string name="app_lock_summary_singular">1 alkalmazás megvédve</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> alkalmazás megvédve</string>
+    <string name="app_lock_authentication_dialog_title">Oldja fel a folytatáshoz</string>
+    <string name="app_lock_packages_title">Védett alkalmazások</string>
+    <string name="app_lock_packages_summary">Válassza ki az alkalmazásokat amelyeket biometrikusan vagy az eszköz képernyőzárjával meg szeretne védeni</string>
+    <string name="app_lock_timeout_title">Automatikus zárolás időkorlátja</string>
+    <string name="app_lock_timeout_summary">Időkorlát miután a háttérben futó feloldott alkalmazás visszazárásra kerül</string>
+    <string name="app_lock_notifications_title">Értesítések védelme</string>
+    <string name="app_lock_notifications_summary">
+          A zárolt alkalmazás értesítései automatikusan elrejtésre kerülnek amíg az zárolva van.
+          Ez a HeadsUp értesítések automatikus letiltásával is jár az alkalmazás számára.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Előbb védjen meg egy alkalmazást</string>
+    <string name="app_lock_footer_text">A buborékok automatikusan eltűnnek az időkorlát lejárta után</string>
+
 </resources>
