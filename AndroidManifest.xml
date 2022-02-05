@@ -3991,10 +3991,10 @@
             android:excludeFromRecents="true"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true">
-                 <intent-filter>
-                     <action android:name="android.settings.panel.action.INTERNET_CONNECTIVITY" />
-                     <category android:name="android.intent.category.DEFAULT" />
-                 </intent-filter>
+                <intent-filter>
+                    <action android:name="android.settings.panel.action.INTERNET_CONNECTIVITY" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
                 <intent-filter>
                     <action android:name="android.settings.panel.action.NFC" />
                     <category android:name="android.intent.category.DEFAULT" />
