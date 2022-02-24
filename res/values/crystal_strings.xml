@@ -155,4 +155,8 @@
      <string name="wifi_timeout_summary_4hours">4 hours</string>
      <string name="wifi_timeout_summary_8hours">8 hours</string>
 
+     <!-- Nightlight UDFPS -->
+     <string name="udfps_night_light_title">Disable Night Light when showing UDFPS</string>
+     <string name="udfps_night_light_summary">Disable Night Light on lock screen if UDFPS is active. Disabling this option might affect your fingerprint accuracy with Night Light on.</string>
+
 </resources>

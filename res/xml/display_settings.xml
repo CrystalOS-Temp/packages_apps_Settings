@@ -92,6 +92,13 @@
             settings:controller="com.android.settings.display.NightDisplayPreferenceController"
             settings:keywords="@string/keywords_display_night_display"/>
 
+        <!-- UDFPS Night light -->
+        <com.crystal.mine.preferences.SystemSettingSwitchPreference
+            android:key="udfps_night_light"
+            android:title="@string/udfps_night_light_title"
+            android:summary="@string/udfps_night_light_summary"
+            android:defaultValue="@*android:bool/disable_udfps_night_light"  />
+
         <Preference
             android:key="color_mode"
             android:title="@string/color_mode_title"
