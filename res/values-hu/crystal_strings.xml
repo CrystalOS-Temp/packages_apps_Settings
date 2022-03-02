@@ -111,4 +111,8 @@
     <string name="swipe_to_screenshot_gesture_title">Simításra képernyőkép</string>
     <string name="swipe_to_screenshot_gesture_summary">Simítson 3 ujjal a képernyőn képernyőkép készítéséhez</string>
 
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rejtett hálózat</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Az ön hotspotja nem lesz látható a közeli eszközök számára.</string>
+
 </resources>
