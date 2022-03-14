@@ -114,5 +114,20 @@
     <!-- Hotspot -->
     <string name="wifi_hotspot_hidden_ssid_title">Rejtett hálózat</string>
     <string name="wifi_hotspot_hidden_ssid_summary">Az ön hotspotja nem lesz látható a közeli eszközök számára.</string>
+    <string name="wifi_hotspot_client_manager_title">Csatlakoztatott eszközök</string>
+    <string name="wifi_hotspot_client_manager_summary">A hotspotra csatlakoztatott eszközök megtekintése és kezelése</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Hotspotra csatlakoztatott eszközök kilistázása</string>
+    <string name="wifi_hotspot_client_limit_title">Maximum csatlakoztatható eszközök száma</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Tiltott eszközök</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Csatlakoztatott Eszközök</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Eszköz tiltása</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Ez a művelet leválasztja a \"<xliff:g id="device_name">%1$s</xliff:g>\" eszközt és hozzáadja azt a tiltólistához</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Eszköz feloldása</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">A \"<xliff:g id="device_name">%1$s</xliff:g>\" eszköz mostantól csatlakozhat a hotspothoz</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Jelenleg egyetlen eszköz sem kapcsolódik a hotspotra. A csatlakoztatott és tiltott eszközök itt fognak megjelenni amint elérhetővé válnak.</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Maximum <xliff:g id="device_num">%1$d</xliff:g> eszköz csatlakozhat a hotspotra</item>
+        <item quantity="one">Csak <xliff:g id="device_num">%1$d</xliff:g> eszköz csatlakozhat a hotspotra</item>
+    </plurals>
 
 </resources>
