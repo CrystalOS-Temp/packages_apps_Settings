@@ -97,4 +97,15 @@
     <string name="skia_vulkan_title">Használjon Skia feldolgozót rendereléshez</string>
     <string name="skia_vulkan_summary">Ez jobb grafikus kinézetet nyújthat de grafikai hibákhoz vezethet.(Újraindítást igényel)</string>
 
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Forgatás</string>
+    <string name="display_rotation_summary">Válassza ki a forgatási szögeket</string>
+    <string name="display_rotation_disabled">Letiltva</string>
+    <string name="display_rotation_unit">fok</string>
+    <string name="display_rotation_category_title">Forgatási módok</string>
+    <string name="display_rotation_0_title">0 fok</string>
+    <string name="display_rotation_90_title">90 fok</string>
+    <string name="display_rotation_180_title">180 fok</string>
+    <string name="display_rotation_270_title">270 fok</string>
+
 </resources>
