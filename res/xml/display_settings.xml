@@ -36,6 +36,7 @@
             android:title="@string/auto_brightness_title"
             android:fragment="com.android.settings.display.AutoBrightnessSettings"
             settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -54,6 +55,7 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.display.ScreenTimeoutSettings"
             settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -78,6 +80,7 @@
 		<com.android.settings.display.DensityPreference
             android:key="density"
             android:title="@string/developer_smallest_width" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -101,15 +104,11 @@
     <PreferenceCategory
         android:title="@string/category_name_display_controls">
 
-        <!--
-            Standard auto-rotation preference that will be shown when device state based
-            auto-rotation settings are NOT available.
-          -->
-        <SwitchPreference
-            android:key="auto_rotate"
-            android:title="@string/accelerometer_title"
-            settings:keywords="@string/keywords_auto_rotate"
-            settings:controller="com.android.settings.display.AutoRotatePreferenceController"/>
+        <Preference
+            android:key="display_rotation"
+            android:title="@string/display_rotation_title"
+            android:summary="@string/display_rotation_summary"
+            android:fragment="com.android.settings.preference.DisplayRotation"/>
 
         <!--
             Auto-rotation preference that will be shown when device state based auto-rotation
