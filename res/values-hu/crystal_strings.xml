@@ -197,4 +197,31 @@
     <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
     <string name="unlock_quick_unlock_control_summary">Helyes jelszó vagy PIN beírásakor automatikusan oldjon fel az eszköz</string>
 
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Lefekvés Mód</string>
+    <string name="sleep_mode_summary_on">Be / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Ki / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Csörgés módja</string>
+    <string name="sleep_mode_ringer_off_title">Ne változzon</string>
+    <string name="sleep_mode_ringer_vibrate_title">Rezgés</string>
+    <string name="sleep_mode_ringer_dnd_title">Ne Zavarjanak</string>
+    <string name="sleep_mode_ringer_silent_title">Csendes</string>
+    <string name="sleep_mode_schedule_sunset">Napnyugta</string>
+    <string name="sleep_mode_schedule_sunrise">Napkelte</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Kapcsoljon be napnyugtától a megadott időpontig</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Kapcsoljon be a megadott időponttól napkeltéig</string>
+    <string name="sleep_mode_schedule_custom">Egyéni időben kapcsoljon be és ki</string>
+    <string name="sleep_mode_toggles_title">Kapcsolók</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi kikapcsolása</string>
+    <string name="sleep_mode_wifi_toggle_summary">Wi-Fi automatikus kikapcsolása Lefekvés módban</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth kikapcsolása</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Bluetooth automatikus kikapcsolása Lefekvés módban</string>
+    <string name="sleep_mode_cellular_toggle_title">Mobil internet kikapcsolása</string>
+    <string name="sleep_mode_cellular_toggle_summary">Mobil internet automatikus kikapcsolása Lefekvés módban</string>
+    <string name="sleep_mode_location_toggle_title">Helymeghatározás kikapcsolása</string>
+    <string name="sleep_mode_location_toggle_summary">Helymeghatározás automatikus kikapcsolása Lefekvés módban</string>
+    <string name="sleep_mode_sensors_toggle_title">Szenzorok kikapcsolása</string>
+    <string name="sleep_mode_sensors_toggle_summary">Szenzorok automatikus kikapcsolása Lefekvés módban</string>
+    <string name="sleep_mode_display_text">A Lefekvés mód kikapcsol bizonyos szolgáltatásokat hogy spóroljon az akkumulátoron és elnémítsa az eszközt hogy ön jobban alhasson.</string>
+
 </resources>
