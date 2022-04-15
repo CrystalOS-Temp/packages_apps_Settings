@@ -67,4 +67,10 @@
     <!-- Flash Notifications Respect DoNoDisturb -->
     <string name="camera_flash_notification_respect_title">DND érzékeny vaku</string>
 
+    <!-- Package details -->
+    <string name="package_details_group_title">Csomag részletek</string>
+    <string name="package_name">Csomag neve</string>
+    <string name="package_version">Csomag verziója</string>
+    <string name="package_version_text" translatable="false"><xliff:g id="version_num">%1$s</xliff:g></string>
+
 </resources>
