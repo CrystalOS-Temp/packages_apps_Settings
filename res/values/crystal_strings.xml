@@ -156,4 +156,8 @@
 
     <string name="background_processes_settings_title">Background processes</string>
 
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+
 </resources>
