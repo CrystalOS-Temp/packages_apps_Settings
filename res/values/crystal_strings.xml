@@ -138,4 +138,8 @@
     <!-- QS Tiles haptic -->
     <string name="qs_tiles_haptic_feedback_title">Vibrate on touching QS tiles</string>
 
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+
 </resources>

@@ -137,4 +137,8 @@
     <!-- QS Tiles haptic -->
     <string name="qs_tiles_haptic_feedback_title">Rezgés a gyorsbeállítások csempéken</string>
 
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Vissza gesztus animáció</string>
+    <string name="back_gesture_arrow_summary">Mutasson egy animált nyilat a vissza gesztusnál</string>
+
 </resources>
