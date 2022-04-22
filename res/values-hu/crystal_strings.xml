@@ -133,4 +133,8 @@
 
     <string name="background_processes_settings_title">Háttérben futó folyamatok</string>
 
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">Vissza gesztus animáció</string>
+    <string name="back_gesture_arrow_summary">Mutassa az animált nyilat vissza gesztusoknál</string>
+
 </resources>
