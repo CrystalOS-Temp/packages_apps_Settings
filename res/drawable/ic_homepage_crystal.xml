@@ -17,7 +17,7 @@
         <com.android.settingslib.widget.AdaptiveIconShapeDrawable
             android:width="@dimen/dashboard_tile_image_size"
             android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/color_crystal_dashboard_icon" />
+            android:tint="?android:attr/colorControlNormal" />
     </item>
 
     <item
