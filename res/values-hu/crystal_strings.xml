@@ -57,12 +57,127 @@
     <!-- Screenshot shutter sound -->
     <string name="screenshot_shutter_sound_title">Képernyőkép zárhang</string>
 
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Minimum képernyőfrissítési gyakoriság</string>
+    <string name="max_refresh_rate_title">Maximum képernyőfrissítési gyakoriság</string>
+    <string name="low_power_refresh_rate_title_custom">Energiatakarékos képernyőfrissítés</string>
+
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">Néma, nincs média</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">Bekapcsolva (néma, nincs média)</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Összes Memória</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Statisztika nullázása</string>
+    <string name="battery_stats_message">Az akkumulátorhasználati adatok nullázva lesznek</string>
+
+    <!-- Message shown in fingerprint enrollment dialog to locate the sensor -->
+    <string name="fingerprint_enroll_find_sensor_message_front" product="tablet">Keresse meg az ujjlenyomat olvasó szenzort a tablet elején!</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="device">Keresse meg az ujjlenyomat olvasó szenzort az eszköz elején!</string>
+    <string name="fingerprint_enroll_find_sensor_message_front" product="default">Keresse meg az ujjlenyomat olvasó szenzort a telefon elején!</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="tablet">Keresse meg az ujjlenyomat olvasó szenzort a tablet hátulján!</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="device">Keresse meg az ujjlenyomat olvasó szenzort az eszköz hátulján!</string>
+    <string name="fingerprint_enroll_find_sensor_message_rear" product="default">Keresse meg az ujjlenyomat olvasó szenzort a telefon hátulján!</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="tablet">Keresse meg az ujjlenyomat olvasó szenzort a tablet oldalán!</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="device">Keresse meg az ujjlenyomat olvasó szenzort az eszköz oldalán!</string>
+    <string name="fingerprint_enroll_find_sensor_message_side" product="default">Keresse meg az ujjlenyomat olvasó szenzort a telefon oldalán!</string>
+
+    <!-- Message shown when user touches the icon on the screen, instead of the real fingerprint sensor -->
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="tablet">Érintse meg az ujjlenyomat olvasó szenzort a tablet elején!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="device">Érintse meg az ujjlenyomat olvasó szenzort az eszköz elején!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_front" product="default">Érintse meg az ujjlenyomat olvasó szenzort a telefon elején!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="tablet">Érintse meg az ujjlenyomat olvasó szenzort a tablet hátulján!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="device">Érintse meg az ujjlenyomat olvasó szenzort az eszköz hátulján!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_rear" product="default">Érintse meg az ujjlenyomat olvasó szenzort a telefon hátulján!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="tablet">Érintse meg az ujjlenyomat olvasó szenzort a tablet oldalán!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg az ujjlenyomat olvasó szenzort az eszköz oldalán!</string>
+    <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg az ujjlenyomat olvasó szenzort a telefon oldalán!</string>
+
+    <!-- Haptic feedback on back gesture -->
+    <string name="back_gesture_haptic_title">Rezgő visszajelzés</string>
+    <string name="back_gesture_haptic_summary">Engedélyezi a rezgő visszajelzést vissza gesztusnál</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Hívás közbeni rezgés opciók</string>
+    <string name="incall_vibrate_connect_title">Csatlakozáskor rezegjen</string>
+    <string name="incall_vibrate_call_wait_title">Hívás várakoztatáskor rezegjen</string>
+    <string name="incall_vibrate_disconnect_title">Lecsatlakozáskor rezegjen</string>
+
+    <!-- UI debug setting: show CPU info? [CHAR LIMIT=25] -->
+    <string name="show_cpu_info">Processzor információ mutatása</string>
+    <!-- UI debug setting: show cpu usage summary [CHAR LIMIT=50] -->
+    <string name="show_cpu_info_summary">Egy képernyőfedvény ami a jelenlegi processzor infót mutatja</string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">VPN használat engedélyezése klienseknek</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Engedélyezi a hotspot kliensek számára hogy az eszköz VPN kapcsolatát használják</string>
+
+    <!-- Per-app volume control -->
+    <string name="app_volume">Alkalmazás hangerő</string>
+    <string name="app_volume_title">Alkalmazásonkénti hangerő szabályzás</string>
+    <string name="app_volume_summary">Engedélyezi hogy az előtérben lévő alkalmazásnak az eszközétől eltérő hangerő szintet állítson be</string>
+
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Bluetooth időkorlát</string>
+
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">A Bluetooth <xliff:g id="timeout_description">%1$s</xliff:g> múlva kikapcsol amennyiben nincs eszköz csatlakoztatva</string>
+    <string name="bluetooth_timeout_summary2">Ne kapcsoljon ki automatikusan</string>
+    <string name="bluetooth_timeout_summary_never">Soha</string>
+    <string name="bluetooth_timeout_summary_15secs">15 másodperc</string>
+    <string name="bluetooth_timeout_summary_30secs">30 másodperc</string>
+    <string name="bluetooth_timeout_summary_1min">1 perc</string>
+    <string name="bluetooth_timeout_summary_2mins">2 perc</string>
+    <string name="bluetooth_timeout_summary_5mins">5 perc</string>
+    <string name="bluetooth_timeout_summary_10mins">10 perc</string>
+    <string name="bluetooth_timeout_summary_30mins">30 perc</string>
+    <string name="bluetooth_timeout_summary_1hour">1 óra</string>
+    <string name="bluetooth_timeout_summary_2hours">2 óra</string>
+    <string name="bluetooth_timeout_summary_4hours">4 óra</string>
+    <string name="bluetooth_timeout_summary_8hours">8 óra</string>
+
+    <!-- screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Wifi időkorlát</string>
+
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">A Wi-Fi automatikusan kikapcsol <xliff:g id="timeout_description">%1$s</xliff:g> múlva ha nincs hálózatra csatlakoztatva</string>
+    <string name="wifi_timeout_summary2">Ne kapcsoljon ki automatikusan</string>
+    <string name="wifi_timeout_summary_never">Soha</string>
+    <string name="wifi_timeout_summary_15secs">15 másodperc</string>
+    <string name="wifi_timeout_summary_30secs">30 másodperc</string>
+    <string name="wifi_timeout_summary_1min">1 perc</string>
+    <string name="wifi_timeout_summary_2mins">2 perc</string>
+    <string name="wifi_timeout_summary_5mins">5 perc</string>
+    <string name="wifi_timeout_summary_10mins">10 perc</string>
+    <string name="wifi_timeout_summary_30mins">30 perc</string>
+    <string name="wifi_timeout_summary_1hour">1 óra</string>
+    <string name="wifi_timeout_summary_2hours">2 óra</string>
+    <string name="wifi_timeout_summary_4hours">4 óra</string>
+    <string name="wifi_timeout_summary_8hours">8 óra</string>
+
+    <!-- Nightlight UDFPS -->
+    <string name="udfps_night_light_title">Éjszakai Fény kikapcsolása UDFPS mutatásakor</string>
+    <string name="udfps_night_light_summary">Éjszakai Fény kikapcsolása a zárképernyőn ha az UDFPS aktív. Ezen opció letiltása hatással lehet az ujjlenyomatolvasó pontosságára ha az Éjszakai Fény aktív.</string>
+
+    <!-- Volume dialog position -->
+    <string name="volume_panel_on_left_title">Hangerő panel a bal oldalon</string>
+    <string name="volume_panel_on_left_summary">A hangerő panel megjelenítése a képernyő bal oldalán</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Teljesképernyős alkalmazások</string>
+    <string name="display_cutout_force_fullscreen_summary">Kényszerítse az alkalmazásokat hogy figyelmen kívül hagyják a képernyőkivágást</string>
+
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_message">Vissza gesztus animáció</string>
     <string name="back_gesture_arrow_summary">Mutassa az animált nyilat vissza gesztusnál</string>
 
     <!-- Volume link notification -->
-    <string name="ring_only_volume_option_title">Csörgés hangereje</string>
+    <string name="ring_only_volume_option_title">Kombinált hangerő</string>
     <string name="volume_link_notification_title">Csörgési &amp; értesítési hangerők összekötése</string>
 
 </resources>
