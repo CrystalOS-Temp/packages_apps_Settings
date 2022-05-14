@@ -224,4 +224,8 @@
     <string name="sleep_mode_sensors_toggle_summary">Szenzorok automatikus kikapcsolása Lefekvés módban</string>
     <string name="sleep_mode_display_text">A Lefekvés mód kikapcsol bizonyos szolgáltatásokat hogy spóroljon az akkumulátoron és elnémítsa az eszközt hogy ön jobban alhasson.</string>
 
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">Másolva a vágólapra</string>
+    <string name="longpress_to_clipboard">Nyomja hosszan a másoláshoz</string>
+
 </resources>
