@@ -24,4 +24,8 @@
     <string name="selinux_status_permissive">Engedékeny</string>
     <string name="selinux_status_enforcing">Szigorú</string>
 
+    <!-- General -->
+    <string name="copied_to_clipboard">Másolva a vágólapra</string>
+    <string name="longpress_to_clipboard">Nyomja hosszan a másoláshoz</string>
+
 </resources>
