@@ -72,4 +72,8 @@
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 
+    <!-- Skia vulkan -->
+    <string name="skia_vulkan_title">Use skia vulkan for hwui rendering</string>
+    <string name="skia_vulkan_summary">This may offer better performance but worse compatibility especially with outdated applications.</string>
+
 </resources>

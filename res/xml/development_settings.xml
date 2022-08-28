@@ -14,10 +14,11 @@
      limitations under the License.
 -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:settings="http://schemas.android.com/apk/res-auto"
-                  android:key="development_prefs_screen"
-                  android:title="@string/development_settings_title">
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="development_prefs_screen"
+    android:title="@string/development_settings_title">
 
     <PreferenceCategory
         android:key="debug_misc_category"
@@ -97,10 +98,11 @@
             android:title="@string/picture_color_mode"
             android:summary="@string/picture_color_mode_desc" />
 
-        <Preference android:key="select_webview_provider"
-                    android:title="@string/select_webview_provider_title"
-                    android:dialogTitle="@string/select_webview_provider_dialog_title"
-                    android:fragment="com.android.settings.webview.WebViewAppPicker" />
+        <Preference
+            android:key="select_webview_provider"
+            android:title="@string/select_webview_provider_title"
+            android:dialogTitle="@string/select_webview_provider_dialog_title"
+            android:fragment="com.android.settings.webview.WebViewAppPicker" />
 
         <SwitchPreference
             android:key="color_temperature"
@@ -112,19 +114,22 @@
             android:title="@string/ota_disable_automatic_update"
             android:summary="@string/ota_disable_automatic_update_summary" />
 
-        <Preference android:key="dsu_loader"
-                    android:title="@string/dsu_loader_title" />
+        <Preference
+            android:key="dsu_loader"
+            android:title="@string/dsu_loader_title" />
 
         <Preference
             android:key="demo_mode"
             android:title="@string/demo_mode">
-            <intent android:action="com.android.settings.action.DEMO_MODE" />
+            <intent
+                android:action="com.android.settings.action.DEMO_MODE" />
         </Preference>
 
         <Preference
             android:key="quick_settings_tiles"
             android:title="@string/quick_settings_developer_tiles"
             android:fragment="com.android.settings.development.qstile.DevelopmentTileConfigFragment" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -137,8 +142,9 @@
             android:title="@string/enable_adb"
             android:summary="@string/enable_adb_summary" />
 
-        <Preference android:key="clear_adb_keys"
-                    android:title="@string/clear_adb_keys" />
+        <Preference
+            android:key="clear_adb_keys"
+            android:title="@string/clear_adb_keys" />
 
         <com.android.settingslib.PrimarySwitchPreference
             android:fragment="com.android.settings.development.WirelessDebuggingFragment"
@@ -176,8 +182,9 @@
             android:key="debug_view_attributes"
             android:title="@string/debug_view_attributes" />
 
-        <Preference android:key="debug_app"
-                    android:title="@string/debug_app" />
+        <Preference
+            android:key="debug_app"
+            android:title="@string/debug_app" />
 
         <SwitchPreference
             android:key="wait_for_debugger"
@@ -516,6 +523,12 @@
             android:key="disable_overlays"
             android:title="@string/disable_overlays"
             android:summary="@string/disable_overlays_summary" />
+
+        <SwitchPreference
+            android:key="skiavk"
+            android:title="@string/skia_vulkan_title"
+            android:summary="@string/skia_vulkan_summary"
+            settings:controller="com.android.settings.development.SkiaVkPreferenceController"/>
 
         <ListPreference
             android:entries="@array/simulate_color_space_entries"
