@@ -523,7 +523,7 @@
             android:key="skiavk"
             android:title="@string/skia_vulkan_title"
             android:summary="@string/skia_vulkan_summary"
-            settings:controller="com.android.settings.development.SkiaVkPreferenceController"/>
+            settings:controller="com.android.settings.development.SkiaGlPreferenceController"/>
 
         <ListPreference
             android:entries="@array/simulate_color_space_entries"

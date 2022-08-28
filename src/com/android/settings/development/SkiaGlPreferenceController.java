@@ -20,7 +20,7 @@ import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.R;
 import com.android.settingslib.development.SystemPropPoker;
 
-public class SkiaVkPreferenceController extends TogglePreferenceController {
+public class SkiaGlPreferenceController extends TogglePreferenceController {
 
     private static final String PROPERTY_RENDERER = "persist.sys.hwui.renderer";
     private static final String PROPERTY_RENDERER_ENGINE = "persist.sys.renderengine.backend";
@@ -29,9 +29,9 @@ public class SkiaVkPreferenceController extends TogglePreferenceController {
     private static final String SKIA_THREADED = "skiaglthreaded";
     private static final String PROPERTY_USES_VULKAN = "ro.hwui.use_vulkan";
     private static final String OPENGL = "opengl";
-    private static final String SKIAVK = "skiavk";
+    private static final String SKIAGL = "skiagl";
 
-    public SkiaVkPreferenceController(Context context, String key) {
+    public SkiaGlPreferenceController(Context context, String key) {
         super(context, key);
     }
 
@@ -43,15 +43,15 @@ public class SkiaVkPreferenceController extends TogglePreferenceController {
     @Override
     public boolean isChecked() {
         String renderer = SystemProperties.get(PROPERTY_RENDERER);
-        if ("".equals(renderer))
-            return "true".equals(SystemProperties.get(PROPERTY_USES_VULKAN));
+        if ("skiagl".equals(renderer))
+            return true;
         else
-            return SKIAVK.equals(renderer);
+            return SKIAGL.equals(renderer);
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        SystemProperties.set(PROPERTY_RENDERER, isChecked ? SKIAVK : OPENGL);
+        SystemProperties.set(PROPERTY_RENDERER, isChecked ? SKIAGL : OPENGL);
         SystemProperties.set(PROPERTY_RENDERER_ENGINE, isChecked ? SKIA_THREADED : OPENGL_THREADED);
         SystemProperties.set(PROPERTY_SKIA_OPS, isChecked ? "true" : "false");
         SystemPropPoker.getInstance().poke();
