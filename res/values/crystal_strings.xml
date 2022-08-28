@@ -74,6 +74,6 @@
 
     <!-- Skia vulkan -->
     <string name="skia_vulkan_title">Use skia vulkan for hwui rendering</string>
-    <string name="skia_vulkan_summary">This may offer better performance but worse compatibility especially with outdated applications.</string>
+    <string name="skia_vulkan_summary">This may offer better performance but worse compatibility especially with outdated applications.(Requires reboot to take effect)</string>
 
 </resources>

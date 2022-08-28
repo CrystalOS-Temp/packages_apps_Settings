@@ -73,6 +73,6 @@
 
     <!-- Skia vulkan -->
     <string name="skia_vulkan_title">Használjon Skia Vulkánt rendereléshez</string>
-    <string name="skia_vulkan_summary">Ez jobb teljesítményt nyújthat de rosszabb kompatibilitást, különösen a régebbi alkalmazásokban.</string>
+    <string name="skia_vulkan_summary">Ez jobb teljesítményt nyújthat de rosszabb kompatibilitást, különösen a régebbi alkalmazásokban.(Újraindítást igényel)</string>
 
 </resources>
