@@ -126,4 +126,9 @@
     <string name="battery_stats_reset">Statisztika nullázása</string>
     <string name="battery_stats_message">Az akkumulátor használati statisztika nullázva lesz</string>
 
+    <!-- Per-app volume control -->
+    <string name="app_volume">Alkalmazás hangerő</string>
+    <string name="app_volume_title">Alkalmazásonkénti hangerőszabályzás</string>
+    <string name="app_volume_summary">Lehetővé teszi hogy minden alkalmazásnak egyéni hangerő szintet állítson be</string>
+
 </resources>
