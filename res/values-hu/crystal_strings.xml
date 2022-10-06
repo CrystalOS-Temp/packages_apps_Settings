@@ -134,4 +134,7 @@
     <string name="show_clipboard_overlay_title">Vágólap indikátor mutatása</string>
     <string name="show_clipboard_overlay_summary">Vágólap ikon megjelenítése a képernyő bal alsó sarkában amikor a vágólap használatban van</string>
 
+    <!-- QS Tiles haptic -->
+    <string name="qs_tiles_haptic_feedback_title">Rezgés a gyorsbeállítások csempéken</string>
+
 </resources>

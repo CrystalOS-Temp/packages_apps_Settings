@@ -79,4 +79,10 @@
 
     </PreferenceCategory>
 
+    <!-- QS Tiles haptic -->
+    <com.crystal.mine.preferences.SystemSettingSwitchPreference
+        android:key="qs_tiles_haptic_feedback"
+        android:title="@string/qs_tiles_haptic_feedback_title"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
