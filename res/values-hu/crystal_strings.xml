@@ -130,4 +130,8 @@
         <item quantity="one">Csak <xliff:g id="device_num">%1$d</xliff:g> eszköz csatlakozhat a hotspotra</item>
     </plurals>
 
+    <!-- Show clipboard overlay -->
+    <string name="show_clipboard_overlay_title">Vágólap indikátor mutatása</string>
+    <string name="show_clipboard_overlay_summary">Vágólap ikon megjelenítése a képernyő bal alsó sarkában amikor a vágólap használatban van</string>
+
 </resources>
