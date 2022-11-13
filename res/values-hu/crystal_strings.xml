@@ -228,4 +228,8 @@
     <string name="copied_to_clipboard">Másolva a vágólapra</string>
     <string name="longpress_to_clipboard">Nyomja hosszan a másoláshoz</string>
 
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Scarlet Asszisztens Készenlét Kezelő</string>
+    <string name="idle_manager_summary">A Scarlet optimalizálja az eszköz energiafogyasztását amíg az tétlen, és hatékonyan növelje a teljesítményét amikor felkel.</string>
+
 </resources>
