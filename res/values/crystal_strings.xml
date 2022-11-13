@@ -229,4 +229,8 @@
     <string name="copied_to_clipboard">Copied to clipboard</string>
     <string name="longpress_to_clipboard">Long-press to copy</string>
 
+    <!-- Scarlet Assistant Idle Manager -->
+    <string name="idle_manager_title">Scarlet Assistant Idle Manager</string>
+    <string name="idle_manager_summary">Scarlet will optimize device\'s power consumption while device is idle and will efficiently boost device performance at every screen wake up.</string>
+
 </resources>
