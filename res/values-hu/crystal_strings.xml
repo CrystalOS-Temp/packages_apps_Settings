@@ -229,7 +229,23 @@
     <string name="longpress_to_clipboard">Nyomja hosszan a másoláshoz</string>
 
     <!-- Scarlet Assistant Idle Manager -->
+    <string name="scarlet_services_title">Scarlet szolgáltatások</string>
     <string name="idle_manager_title">Scarlet Asszisztens Készenlét Kezelő</string>
+    <string name="idle_manager_pref_summary">Scarlet Asszisztens szolgáltatások engedélyezése</string>
     <string name="idle_manager_summary">A Scarlet optimalizálja az eszköz energiafogyasztását amíg az tétlen, és hatékonyan növelje a teljesítményét amikor felkel.</string>
+    <string name="scarlet_aggressive_title">Scarlet Agresszív Mód</string>
+    <string name="scarlet_advanced_settings_title">Scarlet Asszisztens haladó beállítások</string>
+    <string name="scarlet_aggressive_mode_wifi_toggle_title">Wi-Fi kikapcsolása</string>
+    <string name="scarlet_aggressive_mode_wifi_toggle_summary">Wi-Fi automatikus kikapcsolása amikor a Scarlet Agresszív mód aktív</string>
+    <string name="scarlet_aggressive_mode_bluetooth_toggle_title">Bluetooth kikapcsolása</string>
+    <string name="scarlet_aggressive_mode_bluetooth_toggle_summary">Bluetooth automatikus kikapcsolása amikor a Scarlet Agresszív mód aktív</string>
+    <string name="scarlet_aggressive_mode_cellular_toggle_title">Mobil internet kikapcsolása</string>
+    <string name="scarlet_aggressive_mode_cellular_toggle_summary">Mobil internet automatikus kikapcsolása amikor a Scarlet Agresszív mód aktív</string>
+    <string name="scarlet_aggressive_mode_location_toggle_title">Lokáció kikapcsolása</string>
+    <string name="scarlet_aggressive_mode_location_toggle_summary">Lokáció automatikus kikapcsolása amikor a Scarlet Agresszív mód aktív</string>
+    <string name="scarlet_aggressive_mode_sensors_toggle_title">Szenzorok kikapcsolása</string>
+    <string name="scarlet_aggressive_mode_sensors_toggle_summary">Szenzorok automatikus kikapcsolása amikor a Scarlet Agresszív mód aktív</string>
+    <string name="scarlet_manager_display_text">A Scarlet agresszív módja kikapcsol bizonyos szolgáltatásokat hogy csökkentse az eszköz akkumulátor használatát.</string>
+
 
 </resources>

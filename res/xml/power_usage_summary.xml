@@ -70,11 +70,11 @@
         android:summary="@string/notification_battery_charge_level_summary"
         android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings" />
 
-    <com.crystal.mine.preferences.SystemSettingSwitchPreference
-        android:key="scarlet_idle_assistant_manager"
+    <Preference
+        android:key="scarlet_settings"
         android:title="@string/idle_manager_title"
-        android:summary="@string/idle_manager_summary"
-        android:defaultValue="false" />
+        android:summary="@string/idle_manager_pref_summary"
+        android:fragment="com.android.settings.fuelgauge.scarlet.Scarlet" />
 
     <Preference
         android:key="sleep_mode"
