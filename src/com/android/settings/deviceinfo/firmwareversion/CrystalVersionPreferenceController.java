@@ -24,7 +24,8 @@ import com.android.settings.core.BasePreferenceController;
 
 public class CrystalVersionPreferenceController extends BasePreferenceController {
 
-    private static final String PROPERTY_CRYSTAL_VERSION = "ro.crystal.display.version";
+    private static final String PROPERTY_CRYSTAL_VERSION_NUMBER = "ro.crystal.version";
+    private static final String PROPERTY_CRYSTAL_VERSION_NAME = "ro.crystal.version.name";
 
     public CrystalVersionPreferenceController(Context context, String key) {
         super(context, key);
@@ -32,13 +33,19 @@ public class CrystalVersionPreferenceController extends BasePreferenceController
 
     @Override
     public int getAvailabilityStatus() {
-        if (!TextUtils.isEmpty(SystemProperties.get(PROPERTY_CRYSTAL_VERSION))) return AVAILABLE;
+        if (!TextUtils.isEmpty(SystemProperties.get(PROPERTY_CRYSTAL_VERSION_NUMBER)) ||
+        	!TextUtils.isEmpty(SystemProperties.get(PROPERTY_CRYSTAL_VERSION_NAME))) return AVAILABLE;
         return CONDITIONALLY_UNAVAILABLE;
     }
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(PROPERTY_CRYSTAL_VERSION,
-                mContext.getString(R.string.unknown));
+    	final String versionNumber = SystemProperties.get(PROPERTY_CRYSTAL_VERSION_NUMBER);
+    	final String versionName = SystemProperties.get(PROPERTY_CRYSTAL_VERSION_NAME);
+    	if (!TextUtils.isEmpty(versionNumber) && !TextUtils.isEmpty(versionName)) {
+        	return versionNumber + " | " + versionName;
+        } else {
+        	return mContext.getString(R.string.unknown);
+        }
     }
 }
