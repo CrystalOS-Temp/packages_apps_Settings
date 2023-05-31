@@ -141,4 +141,12 @@
     <string name="back_gesture_arrow_title">Vissza gesztus animáció</string>
     <string name="back_gesture_arrow_summary">Mutasson egy animált nyilat a vissza gesztusnál</string>
 
+    <!-- Hide developer status -->
+    <string name="hide_developer_status_title">Fejlesztői beállítások állapotának elrejtése</string>
+    <string name="hide_developer_status_summary">A fejlesztői beállítások feloldottságának elrejtése az alkalmazások elől</string>
+
+	<!-- Search strings -->
+    <string name="search">Keresés</string>
+    <string name="search_apps">Keresés az alkalmazásokban</string>
+
 </resources>
