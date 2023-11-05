@@ -12320,4 +12320,8 @@
 
     <!-- Warning message when we try to dock an app not supporting multiple instances split into multiple sides [CHAR LIMIT=NONE] -->
     <string name="dock_multi_instances_not_supported_text">"This app can only be opened in 1 window"</string>
+
+    <!-- The title string used in the firmware version page as page title
+     to prevent using the same string on a single page multiple times -->
+    <string name="software_info_title">Software information</string>
 </resources>

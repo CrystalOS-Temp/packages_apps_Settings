@@ -4797,4 +4797,7 @@
     <string name="contrast_medium" msgid="384414510709285811">"Közepes"</string>
     <string name="contrast_high" msgid="3988567609694797696">"Nagy"</string>
     <string name="dock_multi_instances_not_supported_text" msgid="3513493664467667084">"Ez az alkalmazás csak egy ablakban nyitható meg"</string>
+
+    <string name="software_info_title">Szoftver információ</string>
+
 </resources>
