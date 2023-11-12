@@ -39,4 +39,26 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
 
+    <!-- Dev Options Toast Insulter -->
+    <string name="dev_options_insult_1">Hahaha, n00b!</string>
+    <string name="dev_options_insult_2">What are you doing??</string>
+    <string name="dev_options_insult_3">n00b alert!</string>
+    <string name="dev_options_insult_4">What is this...? Amateur hour!?</string>
+    <string name="dev_options_insult_5">This is not Windows</string>
+    <string name="dev_options_insult_6">Please step away from the device!</string>
+    <string name="dev_options_insult_7">error code: 1D10T</string>
+    <string name="dev_options_insult_8">Go outside</string>
+    <string name="dev_options_insult_9">¯\\_(ツ)_/¯</string>
+    <string name="dev_options_insult_10">Pro tip: Stop doing this!</string>
+    <string name="dev_options_insult_11">Y u no speak computer???</string>
+    <string name="dev_options_insult_12">Why are you so stupid?!</string>
+    <string name="dev_options_insult_13">Perhaps this Android thing is not for you...</string>
+    <string name="dev_options_insult_14">Don\'t you have anything better to do?!</string>
+    <string name="dev_options_insult_15">This is why nobody likes you...</string>
+    <string name="dev_options_insult_16">Are you even trying?!</string>
+    <string name="dev_options_insult_17">Looks like you meant something else by Crystal</string>
+    <string name="dev_options_insult_18">This won\'t make you look cooler to your friends</string>
+    <string name="dev_options_insult_19">Go back to your stock ROM</string>
+    <string name="dev_options_insult_20">You look like a person who plays PUBG on his phone</string>
+
 </resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2023 CrytsalOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+     <string-array name="dev_options_insults">
+          <item>@string/dev_options_insult_1</item>
+          <item>@string/dev_options_insult_2</item>
+          <item>@string/dev_options_insult_3</item>
+          <item>@string/dev_options_insult_4</item>
+          <item>@string/dev_options_insult_5</item>
+          <item>@string/dev_options_insult_6</item>
+          <item>@string/dev_options_insult_7</item>
+          <item>@string/dev_options_insult_8</item>
+          <item>@string/dev_options_insult_1</item>
+          <item>@string/dev_options_insult_10</item>
+          <item>@string/dev_options_insult_11</item>
+          <item>@string/dev_options_insult_12</item>
+          <item>@string/dev_options_insult_13</item>
+          <item>@string/dev_options_insult_14</item>
+          <item>@string/dev_options_insult_15</item>
+          <item>@string/dev_options_insult_16</item>
+          <item>@string/dev_options_insult_17</item>
+          <item>@string/dev_options_insult_18</item>
+          <item>@string/dev_options_insult_19</item>
+          <item>@string/dev_options_insult_20</item>
+     </string-array>
+
+</resources>

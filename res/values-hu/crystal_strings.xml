@@ -39,4 +39,26 @@
 	<!-- Notification log -->
     <string name="notification_log_summary">Értesítési előzmények megjelenítése</string>
 
+    <!-- Dev Options Toast Insulter -->
+    <string name="dev_options_insult_1">Hahaha, n00b!</string>
+    <string name="dev_options_insult_2">Te mégis mit csinálsz??</string>
+    <string name="dev_options_insult_3">n00b riadó!</string>
+    <string name="dev_options_insult_4">Mi ez...? Amatőr óra!?</string>
+    <string name="dev_options_insult_5">Ez nem Windows</string>
+    <string name="dev_options_insult_6">Lépjen el az eszköztől!</string>
+    <string name="dev_options_insult_7">hiba kód: 1D10T4</string>
+    <string name="dev_options_insult_8">Menj ki inkább a levegőre</string>
+    <string name="dev_options_insult_9">¯\\_(ツ)_/¯</string>
+    <string name="dev_options_insult_10">Pro tip: Ezt fejezd be!</string>
+    <string name="dev_options_insult_11">Miért nem beszélsz számítógép???</string>
+    <string name="dev_options_insult_12">Miért vagy ilyen hülye?!</string>
+    <string name="dev_options_insult_13">Lehetséges hogy ez az Android dolog nem neked való...</string>
+    <string name="dev_options_insult_14">Nincs semmi jobb dolgod?!</string>
+    <string name="dev_options_insult_15">Na EZÉRT nem szeret senki...</string>
+    <string name="dev_options_insult_16">Próbálkozol egyáltalán?!</string>
+    <string name="dev_options_insult_17">Úgy tűnik te másmilyen Kristályra gondoltál</string>
+    <string name="dev_options_insult_18">Ettől nem tűnsz menőbbnek</string>
+    <string name="dev_options_insult_19">Inkább menj vissza a gyári rendszeredre!</string>
+    <string name="dev_options_insult_20">Úgy nézel ki mint valaki aki a telefonján játszik PUBG-t</string>
+
 </resources>
