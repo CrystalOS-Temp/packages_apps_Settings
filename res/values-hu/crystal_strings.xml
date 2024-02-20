@@ -95,4 +95,8 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="device">Érintse meg az ujjlenyomat olvasót az eszköz oldalán.</string>
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">Érintse meg az ujjlenyomat olvasót a telefon oldalán.</string>
 
+    <!-- Description for require screen on to auth toggle shown in fingerprint enrollment dialog once enrollment is completed.
+         Only for devices that support checking proximity prior to allowing fingerprint unlock. -->
+    <string name="security_settings_require_screen_on_to_auth_with_proximity_description">Érintse meg az olvasót az eszköz feloldásához akkor is, ha az eszköz alszik. A közelségérzékelő gondoskodik a véletlen feloldásokról.</string>
+
 </resources>
