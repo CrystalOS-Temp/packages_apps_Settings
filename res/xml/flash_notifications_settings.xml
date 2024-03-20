@@ -36,6 +36,12 @@
         android:title="@string/camera_flash_notification_title"
         settings:controller="com.android.settings.accessibility.CameraFlashNotificationPreferenceController" />
 
+    <SwitchPreference
+        android:key="camera_flash_notification_respects_dnd"
+        android:persistent="false"
+        android:title="@string/camera_flash_notification_respect_title"
+        settings:controller="com.android.settings.accessibility.CameraFlashNotificationRespectPreferenceController" />
+
     <com.android.settingslib.PrimarySwitchPreference
         android:key="screen_flash_notification_preference"
         android:persistent="false"

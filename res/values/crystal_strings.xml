@@ -65,4 +65,7 @@
     <string name="crystal_homepage_title" translatable="false">Crystal Mine</string>
     <string name="crystal_homepage_summary">Every extra Android could give you!</string>
 
+    <!-- Flash Notifications Respect DoNoDisturb -->
+    <string name="camera_flash_notification_respect_title">DND sensitive flash</string>
+
 </resources>

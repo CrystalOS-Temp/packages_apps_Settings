@@ -64,4 +64,7 @@
     <!-- Mine -->
     <string name="crystal_homepage_summary">Minden extra amit az Android nyújthat számára!</string>
 
+    <!-- Flash Notifications Respect DoNoDisturb -->
+    <string name="camera_flash_notification_respect_title">DND érzékeny vaku</string>
+
 </resources>
